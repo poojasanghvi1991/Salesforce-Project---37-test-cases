@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="OpportunitiesPage">
+	<listeners>
+		<listener class-name="com.salesforceApp.utilities.GenerateReportsListener"/>
+	</listeners>		
+	<test name="Test4" allow-return-values="true">
+	<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.Salesforce.Test.OpportunitiesPageTCs"/>
+		</classes>
+	</test>
+</suite>
